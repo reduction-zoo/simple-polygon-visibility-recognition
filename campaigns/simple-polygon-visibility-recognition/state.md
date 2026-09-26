@@ -1,14 +1,12 @@
 # 3-SAT → Simple-polygon visibility graph recognition campaign state
 
-Status: Prepare pending. No reduction or solution is claimed.
+Status: Prepare partial. Source corpus fixed and checked; target witness model and sound oracle pending. No reduction or solution is claimed.
 
-Scope: establish the independent testing foundation only.
+Scope: independent testing foundation only. Round budget: 0 construction rounds authorized.
 
-Round budget: 0 construction rounds authorized in this setup task.
+Capability probe: CPython 3.12.14 and locked `z3-solver` 4.16.0.0 for source SAT. See [preparation.md](work/preparation.md).
 
-Capability probe: pending. Record dated versions and availability before Prepare.
-
-Next action: read the fixed question, then complete `.agents/skills/research-prepare/SKILL.md` and commit its corpus, oracles, checks and limitations.
+Next action: fix a finite coordinate encoding that preserves the intended unrestricted polygon semantics, then build and validate a conclusive target oracle and complete the candidate gate.
 
 | ID | Attempted mechanism or literature scope | First check | Outcome | Evidence |
 |---|---|---|---|---|
